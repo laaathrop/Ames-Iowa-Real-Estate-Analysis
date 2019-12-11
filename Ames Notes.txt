@@ -1,0 +1,3 @@
+# Where are the highly prices houses?
+mel.plot(kind="scatter", x="lat", y="long", c="price",
+         cmap="inferno", figsize=(14, 10), s=2);
